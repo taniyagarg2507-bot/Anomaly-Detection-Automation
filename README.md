@@ -1,24 +1,24 @@
 # Anomaly-Detection-Automation
 
-SignalForge
+**SignalForge**
 
-#AI-Driven Anomaly Detection in Component Burn-in and Screening
+#**AI-Driven Anomaly Detection in Component Burn-in and Screening**
 
-The main idea of our project is to find components that may show abnormal behaviour during Environmental Stress Screening(ESS),even if they are still within the normal fixed limits.
+The main idea of our project is to find components that may show abnormal behaviour during **Environmental Stress Screening(ESS)**,even if they are still within the normal fixed limits.
 
-#Problem Statement
+#**Problem Statement**
 
 In traditional ESS,the measured value of a component is compared with a fixed limit.
 
-If the value is within the limit - Pass
+If the value is within the limit - **Pass**
 
-If the value crosses the limit - Fail
+If the value crosses the limit - **Fail**
 
 But sometimes a component can pass the fixed limit and still behave differently from other components in the same lot.
 
 Our project tries to identify this type of abnormal behaviour at an early stage.
 
-#Proposed Solution
+#**Proposed Solution**
 
 We use statistics and machine learning to analyse ESS data.
 
@@ -30,7 +30,7 @@ The system :
 
 3.Finds abnormal component behaviour.
 
-4.Uses early measurements like 0h and 24h to predict the behaviour at 168h.
+4.Uses early measurements like **0h and 24h** to predict the behaviour at **168h**.
 
 5.Combines these results to give a risk level.
 
@@ -44,11 +44,11 @@ The final output can be:
 
 6.Provides an explainable result.
 
-#WorkFlow
+#**WorkFlow**
 
 Component Data - Preprocessing - Dynamic Baseline - Anomaly Detection + Drift Prediction - Risk Engine - Normal/Review/High Risk
 
-#Parameters
+#**Parameters**
 
 The system works with ESS parameters such as:
 
@@ -68,7 +68,7 @@ Measurements are considered at different time points:
 
 -168 hours
 
-#Technologies Used
+#**Technologies Used**
 
 -Python
 
@@ -88,7 +88,7 @@ Measurements are considered at different time points:
 
 -FastAPI
 
-#Key Features
+#**Key Features**
 
 1.Dynamic Baseline
 
@@ -114,7 +114,7 @@ Measurements are considered at different time points:
 
 -The system supports QA Engineers by providing the risk level and supporting evidence.The final decision is reviewed by a human instead of being completely automated.
 
-#Expected Impact
+#**Expected Impact**
 
 Our project aims to:
 
@@ -128,14 +128,14 @@ Our project aims to:
 
 -Provides an explainable risk decision instead of simple PASS/FAIL result.
 
-#Team
+#**Team**
 
-Prototype: https://q9kbbqptxac9nhhaapnp6z.streamlit.app/
+**Prototype**: https://q9kbbqptxac9nhhaapnp6z.streamlit.app/
 
-Team Name: SignalForge
+**Team Name**: SignalForge
 
-Problem StatementID: SIH26170
+**Problem StatementID**: SIH26170
 
-Theme: Smart Automation
+**Theme**: Smart Automation
 
-PS Category: Software
+**PS Category**: Software
