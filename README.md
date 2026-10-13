@@ -5,7 +5,7 @@
 #**AI-Driven Anomaly Detection in Component Burn-in and Screening**
 
 The main idea of our project is to find components that may show abnormal behaviour during **Environmental Stress Screening(ESS)**,even if they are still within the normal fixed limits.
-<hr>
+
 #**Problem Statement**
 
 In traditional ESS,the measured value of a component is compared with a fixed limit.
